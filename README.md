@@ -14,7 +14,11 @@
 - Composer
 - Laravel Valet (optional)
 
+## Testing
+- Run `php artisan test`
+
 ## Usage
+- Url: `http://pre-order-api.test/api/v1`
 
 ### Admin Account
 - Email: `admin@admin.com`
