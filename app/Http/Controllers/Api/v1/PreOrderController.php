@@ -72,7 +72,7 @@ class PreOrderController extends Controller
         $cart = $user->cart;
 
         if (!$cart) {
-            return response()->json(['message' => 'User not found.'], 400);
+            return response()->json(['message' => 'Cart not found'], 404);
         }
 
         $preOrder = new PreOrder;

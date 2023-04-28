@@ -23,7 +23,7 @@ class CartController extends Controller
         $cart = $user->cart;
 
         if (!$cart) {
-            return response()->json(['error' => 'Basket not found'], 404);
+            return response()->json(['message' => 'Basket not found'], 404);
         }
 
         $cartItems = $cart->items;
